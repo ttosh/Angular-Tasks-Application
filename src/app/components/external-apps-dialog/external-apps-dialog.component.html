@@ -1,0 +1,18 @@
+<div id="dm" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+    <div class="modal-dialog" role="document" style="width:200px; min-height: 50px;">
+        <table border="1" cellspacing="0" style="background: white; text-decoration: none;">
+            <tr style="background-color: #2c76bc; text-align: center">
+                <td colspan="2">{{currentAircraft}}</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="imgSendAppAcInfo" src='/assets/images/acinfo-icon.png' alt='AC Info' (click)="sendApp('AcInfo')" data-dismiss="modal"
+                    />
+                </td>
+                <td>
+                    <img id="imgSendAppSafe" src='/assets/images/safe-icon.png' alt='Safe' (click)="sendApp('Safe')" data-dismiss="modal" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

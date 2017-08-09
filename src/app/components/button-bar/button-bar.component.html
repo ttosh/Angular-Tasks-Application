@@ -1,0 +1,16 @@
+<div class="col-sm-12 col-md-2 col-lg-3 col-xs-12 button-container">
+  <span id="btnShowCloseAllTasksModal" class="button" (click)="showCloseAllTasksModal()" [ngClass]="arrived ? '' : 'disabled'">
+      <div class="button-border" style="cursor: pointer;" [ngClass]="arrived ? 'selected' : 'notselected'">
+          <i class="fa fa-tasks fa-2x button-icon" aria-hidden="true"></i>
+      </div>
+      <div class="button-text">Done</div>
+  </span>
+  <span id="btnSetArrived" class="button" (click)="setArrived()">
+      <div class="button-border" style="cursor: pointer;" [ngClass]="arrived ? 'selected' : 'notselected'">
+          <i class="fa fa-2x button-icon" [ngClass]="arrived ? 'fa-user' : 'fa-user-secret'" aria-hidden="true"></i>
+      </div>
+      <div class="button-text">Arrived</div>
+  </span>
+</div>
+
+

@@ -1,0 +1,125 @@
+.container-fluid {
+    margin-top: 35px;
+}
+
+.detail-header {
+	background-color: #36495a;
+	height:60px;
+	position:fixed;
+    z-index: 100;
+    min-width: 100%;
+    margin-left: -15px;
+}
+
+.detail-footer {
+	background-color: #36495a;
+	height: 100px;
+	position: fixed; 
+	bottom: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    margin-left: -15px;
+}
+
+.task-detail-container {
+    margin-top: 60px;
+	color: #36495a;
+	padding: 0px;
+	background-color: #e6e6e6;
+	overflow: hidden;
+}
+
+.task-container {
+	background-color: #262628 !important;
+    color: #FFF;
+	padding: 0px 15px;
+	font-size: 1.2em;
+	overflow-y: hidden;
+}
+
+.task-detail-div-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task-detail-div-content {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.button-detail-container {
+	margin-top: 13px;
+}
+
+.button-detail-container .button {
+	margin-right: 5px;
+}
+
+@media (max-device-width: 768px) and (max-aspect-ratio: 4/3) {
+    .route-container { width: auto; height: auto; margin: 0px auto; text-align: center; position: relative; display: block; }
+    .item-container { margin-right: 10px; margin-left: 10px; }
+    .pad-fix { padding-left: 15px; padding-right: 15px; }
+    .media-height{
+        min-height:805px;
+        height: 805px;
+    }
+    .scroll-height{
+        min-height:585px;
+    }
+    .media-width {
+    	width: 738px;
+    }
+    .task-container { padding-left: 0px;}
+    .flight-info-bottom {
+    	padding : 3px 13px 0px 14px !important;
+    }
+    .button-container {
+    	position: absolute;
+		right: 0px;
+		width: 200px;
+		margin-top: 5px;
+    }
+    .button-text {
+    	font-size: 1vh;
+    }
+    .add-comment-container input {
+    	width: 242px !important;
+    }
+	.taskdiscrepancy {
+		height: 805px;
+	}
+    .nose-container {
+    padding-top: 25px;
+    }
+    .nose-number {
+        color: white;
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    span.nose-icon-aa {
+        /*background-image: url('../img/aa-nose-icon-lg.png');*/
+        height: 25px;
+        width: 29px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+}
+
+@media (max-device-width: 1024px) and (min-aspect-ratio: 4/3) {
+     .media-height{
+        min-height: 525px;
+    	max-height: 550px;
+     }
+     .scroll-height{
+        max-height:330px;
+     }
+	.media-width {
+		width: 994px;
+	}
+	.flight-info-bottom {
+		padding : 3px 15px 0px 15px !important;
+	}
+	.taskdiscrepancy {
+		height: 555px;
+	}
+}

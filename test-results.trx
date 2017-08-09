@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0d2d6211-98cc-a400-651a-b95b6df8a9e5" name="941350@QJ07304218 2017-08-02T20:51:32" runUser="941350" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Karma Test Run" id="0f8bdc65-2598-b68e-313f-3c5546ad9683"/>
+  <Times creation="2017-08-02T20:51:32" queuing="2017-08-02T20:51:32" start="2017-08-02T20:51:32" finish="2017-08-02T20:51:35"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="60" executed="60" passed="60" error="0" failed="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should create the app" id="5ac3d7f8-22ac-e6f5-6e33-e3ffe18954f3">
+      <Execution id="baf37419-dcaf-f910-cc85-03d173d27744"/>
+      <TestMethod codeBase="AppComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should create the app" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should create the app" className="AppComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have as title &apos;Tasks&apos;" id="a6751241-558a-5507-368c-0d0e6943950b">
+      <Execution id="f20e9b01-8891-f38d-b45d-1aa4feba29e1"/>
+      <TestMethod codeBase="AppComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should have as title &apos;Tasks&apos;" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have as title &apos;Tasks&apos;" className="AppComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="a34f97bc-7a39-d1cc-1ff5-adbe476c6139">
+      <Execution id="2d354683-2b29-2838-0298-b8f7091d4ba3"/>
+      <TestMethod codeBase="AppService.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="AppService.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" id="0f1c5955-ba21-ba7b-899c-25a7b4e78d26">
+      <Execution id="39af6b9a-f346-df14-933b-2cbf0c4b5845"/>
+      <TestMethod codeBase="AppService.getData.Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" className="AppService.getData"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to get data" id="343ed0c0-93bd-0015-4307-6ae5b0a6422e">
+      <Execution id="2aa30539-d465-4dc1-e659-fe916a4472e3"/>
+      <TestMethod codeBase="AppService.getData.Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to get data" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to get data" className="AppService.getData"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" id="518ae1e3-1ffa-468b-a8a4-8f09e65cf1b7">
+      <Execution id="21ba9d9b-100e-a100-3943-3834fbfdb24a"/>
+      <TestMethod codeBase="AppService.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" className="AppService.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect a return of the same task id that was sent into service call" id="7341e180-8deb-c517-2d0a-18ac34b1017e">
+      <Execution id="659c3bb4-e917-6fe9-dff4-bd7044343791"/>
+      <TestMethod codeBase="AppService.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should expect a return of the same task id that was sent into service call" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect a return of the same task id that was sent into service call" className="AppService.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="33a898ad-ae26-4410-7172-b2ffc22e77d5">
+      <Execution id="5780060a-89d3-7c42-ad32-4aa7903c6b07"/>
+      <TestMethod codeBase="TaskPopoverComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="TaskPopoverComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should create an instance" id="3d9b24d9-61c4-e37d-c234-0781db16e4a7">
+      <Execution id="34743820-83bd-2e12-83fa-4971f2bda8dc"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should create an instance" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should create an instance" className="TimePipe.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is an invalid string" id="de433625-b202-3dc2-b1de-b9214fe452d1">
+      <Execution id="33edd353-8fe4-4475-34aa-491e508a01ef"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is an invalid string" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is an invalid string" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is null" id="2a72afd7-c83a-7980-53b2-a63ca2ecc228">
+      <Execution id="cc515fad-bb78-6926-07fb-9f5ffa1c652e"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is null" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is null" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date a different object" id="a0e4031c-a36e-e084-8f9e-032464cc27da">
+      <Execution id="5c22c07b-a1c0-be23-0edb-9bba23b3dfc5"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date a different object" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date a different object" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date has not been defined" id="b4f254bf-055c-201f-3679-80c4fb423a19">
+      <Execution id="510d156b-6655-4e4a-0853-8a513923e8b8"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date has not been defined" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date has not been defined" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with string input" id="a9119a65-fa8d-570d-e0c6-4a0c927c7329">
+      <Execution id="3602f9e4-44a8-ab0e-5672-6358a5e5f13c"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with string input" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with string input" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with date input" id="50893ca8-e735-98fc-d41f-221223d7e53b">
+      <Execution id="e8683ff3-a18e-c38d-d2b7-140500d8533e"/>
+      <TestMethod codeBase="TimePipe.initial load expectation.transform.Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with date input" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with date input" className="TimePipe.initial load expectation.transform"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="2eb75515-7aeb-272a-0e4d-714f20a8048c">
+      <Execution id="e8222db1-4fa0-ad3e-94b1-6f2b1b794c19"/>
+      <TestMethod codeBase="AndroidService.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="AndroidService.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return the LAB Service URI" id="0d7d4054-e0e7-5031-1310-40b6801007cc">
+      <Execution id="6b4916a3-a6ec-ecb3-cd69-0c940b79983a"/>
+      <TestMethod codeBase="AndroidService.getService.Chrome 59.0.3071 (Windows 7 0.0.0)_should return the LAB Service URI" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return the LAB Service URI" className="AndroidService.getService"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" id="23f0d6b2-1637-182a-73d9-be423e93216d">
+      <Execution id="a315845e-cb77-0194-aa84-ecacd759f64a"/>
+      <TestMethod codeBase="AndroidService.getData.Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" className="AndroidService.getData"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return an employee model type" id="8a8f4247-ae17-d701-82b6-c14798b27780">
+      <Execution id="30b02746-59be-11e6-97f3-15f98251c13e"/>
+      <TestMethod codeBase="AndroidService.getEmployeeData.Chrome 59.0.3071 (Windows 7 0.0.0)_should return an employee model type" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return an employee model type" className="AndroidService.getEmployeeData"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return 1 when not an android device" id="41e6c77c-3750-9406-53d9-f4f72cb9d535">
+      <Execution id="7a960cee-8dff-184c-6e0e-5331309a262a"/>
+      <TestMethod codeBase="AndroidService.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should return 1 when not an android device" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return 1 when not an android device" className="AndroidService.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return null when not an android device" id="7e1543d5-d797-c13e-eeee-acf5a5fbb1b1">
+      <Execution id="ecde856c-70dc-dae1-6767-2d634774de0b"/>
+      <TestMethod codeBase="AndroidService.setAircraftStatus.Chrome 59.0.3071 (Windows 7 0.0.0)_should return null when not an android device" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should return null when not an android device" className="AndroidService.setAircraftStatus"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="88134abd-65e5-ce44-4236-e0e65e259243">
+      <Execution id="5de4fdc3-646c-72a0-0584-930d4bd8108f"/>
+      <TestMethod codeBase="CloseTaskService.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="CloseTaskService.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task method using the closeTaskRequest parameter" id="f7c166fc-6c7b-2725-4f3a-a1881b5a5dfb">
+      <Execution id="f6d8c440-7d30-5c23-4f68-09a11b4b3cf4"/>
+      <TestMethod codeBase="CloseTaskService.closeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task method using the closeTaskRequest parameter" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task method using the closeTaskRequest parameter" className="CloseTaskService.closeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="cbb186c0-dd4c-d4ea-3d8a-4e49b181c041">
+      <Execution id="26178b00-d190-b995-9aef-c4f40a99251e"/>
+      <TestMethod codeBase="ButtonBarComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="ButtonBarComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight input on load of component" id="5f21488e-e845-17c6-94ea-ca4bc07133ac">
+      <Execution id="2352958e-de6d-773f-96ed-d13393b510bf"/>
+      <TestMethod codeBase="ButtonBarComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight input on load of component" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight input on load of component" className="ButtonBarComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call set arrived method on button click" id="62249eb2-737a-88cc-a564-74619e791e00">
+      <Execution id="34481205-d914-ee5b-8fa1-87d3e3d360b5"/>
+      <TestMethod codeBase="ButtonBarComponent.setArrived.Chrome 59.0.3071 (Windows 7 0.0.0)_should call set arrived method on button click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call set arrived method on button click" className="ButtonBarComponent.setArrived"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call show close all tasks modal method on button click" id="d58aa0b4-d1f3-1f73-27e9-39ed65f52eb7">
+      <Execution id="8f8d7704-d5aa-0f41-5a82-f707fa24827c"/>
+      <TestMethod codeBase="ButtonBarComponent.showCloseAllTasksModal.Chrome 59.0.3071 (Windows 7 0.0.0)_should call show close all tasks modal method on button click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call show close all tasks modal method on button click" className="ButtonBarComponent.showCloseAllTasksModal"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="81df36f0-1ab1-9d82-07f3-1ee6f756e8ea">
+      <Execution id="ebfe4f8d-060f-2505-d0b1-480c28cb7294"/>
+      <TestMethod codeBase="ButtonBarService.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="ButtonBarService.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be empty on initial load" id="95d973a7-bf0e-078f-6729-56efc7b96aea">
+      <Execution id="78fe14d6-8b57-567b-311f-9473ede5fc6b"/>
+      <TestMethod codeBase="ButtonBarService.currentDoneAcData.Chrome 59.0.3071 (Windows 7 0.0.0)_should be empty on initial load" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be empty on initial load" className="ButtonBarService.currentDoneAcData"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should set the internal currentDoneAcData variable to passed in param" id="42333004-2df5-7627-c84d-e06eea451c07">
+      <Execution id="53734b1e-c278-5217-eb5f-6ddf053479cd"/>
+      <TestMethod codeBase="ButtonBarService.updateDoneTaskByFlight.Chrome 59.0.3071 (Windows 7 0.0.0)_should set the internal currentDoneAcData variable to passed in param" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should set the internal currentDoneAcData variable to passed in param" className="ButtonBarService.updateDoneTaskByFlight"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should get the internal currentDoneAcData and return" id="fe98532d-01b8-195a-1b2c-f573f6b924cf">
+      <Execution id="a4740066-155e-b0f9-a2a1-83cd0dfae66c"/>
+      <TestMethod codeBase="ButtonBarService.getDoneTasksByFlight.Chrome 59.0.3071 (Windows 7 0.0.0)_should get the internal currentDoneAcData and return" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should get the internal currentDoneAcData and return" className="ButtonBarService.getDoneTasksByFlight"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="cfeacf7c-dfe4-e0e7-8e25-06bc7dad1ef4">
+      <Execution id="c1183721-32a2-017f-8f39-2540221fb5ac"/>
+      <TestMethod codeBase="CloseAllDialogComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="CloseAllDialogComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close all tasks method on button click" id="62a98491-66dd-dac3-d42c-3925dfc0ce99">
+      <Execution id="52aac42c-c3f5-d7d9-18f5-99d405bb8621"/>
+      <TestMethod codeBase="CloseAllDialogComponent.closeAllTasks.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close all tasks method on button click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close all tasks method on button click" className="CloseAllDialogComponent.closeAllTasks"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close method on button click" id="b3cf3a1e-191a-dc7d-cb1c-29323411c8c9">
+      <Execution id="f295010c-e318-7e58-5453-528dd7e8201d"/>
+      <TestMethod codeBase="CloseAllDialogComponent.close.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close method on button click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close method on button click" className="CloseAllDialogComponent.close"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="c38b3d5e-54c4-0ee4-8707-f493707bede1">
+      <Execution id="99e4eadc-99ce-059d-e18b-8e4df5ddef25"/>
+      <TestMethod codeBase="ExternalAppsDialogComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="ExternalAppsDialogComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created with a valid flight object" id="93b830e3-96e6-c3c9-9104-4d2f55a4167a">
+      <Execution id="4322090c-64a5-7979-52b0-48c621fde798"/>
+      <TestMethod codeBase="ExternalAppsDialogComponent.currentFlight.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created with a valid flight object" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created with a valid flight object" className="ExternalAppsDialogComponent.currentFlight"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with AcInfo input on click" id="3f1805db-ad43-afb7-1cd7-4bd51bb8e587">
+      <Execution id="bfe9319d-7ea0-fb14-bd7d-16b9fd3ffc51"/>
+      <TestMethod codeBase="ExternalAppsDialogComponent.sendApp.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with AcInfo input on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with AcInfo input on click" className="ExternalAppsDialogComponent.sendApp"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with Safe input on button click" id="b6cc5b53-38a2-858a-d754-f88a24bb7e8a">
+      <Execution id="b924ee36-4671-cf2d-1af7-086d00b940da"/>
+      <TestMethod codeBase="ExternalAppsDialogComponent.sendApp.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with Safe input on button click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with Safe input on button click" className="ExternalAppsDialogComponent.sendApp"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="face4187-b7de-899c-1243-85a23c7faf4e">
+      <Execution id="fbc4303e-354c-8b8a-d1f4-b7436bc64562"/>
+      <TestMethod codeBase="FlightComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="FlightComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight model on load of component" id="f145fcab-c2ce-48d8-c224-55cf4a655fbe">
+      <Execution id="eb30f13d-80b2-180a-34ce-90869a45f74f"/>
+      <TestMethod codeBase="FlightComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight model on load of component" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight model on load of component" className="FlightComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the show external apps dialog method on click" id="4b05370f-f9f8-515b-1de6-7425c272c9e6">
+      <Execution id="135c3d0a-1d02-5615-ef60-daafedb5b50d"/>
+      <TestMethod codeBase="FlightComponent.showExternalAppsDialog.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the show external apps dialog method on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the show external apps dialog method on click" className="FlightComponent.showExternalAppsDialog"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="59172f44-00ea-b858-8294-58c88f4c737d">
+      <Execution id="c049579d-4a77-be72-b7bc-121160970ee6"/>
+      <TestMethod codeBase="TaskDetailModalContent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="TaskDetailModalContent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task modal method on click" id="1f30058d-27db-7115-137e-f614389c3845">
+      <Execution id="91bf61de-3c3a-1184-0446-97c4bb1eea01"/>
+      <TestMethod codeBase="TaskDetailModalContent.closeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task modal method on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task modal method on click" className="TaskDetailModalContent.closeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the dismiss task modal method on click" id="a5c53298-2d9c-968d-4c3b-b89451919c58">
+      <Execution id="fd85a2c1-34fb-59cc-218a-41dcc1740ac0"/>
+      <TestMethod codeBase="TaskDetailModalContent.close.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the dismiss task modal method on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the dismiss task modal method on click" className="TaskDetailModalContent.close"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="cd566310-fb20-bd4d-1449-2fc03af20398">
+      <Execution id="297cb907-d646-1d31-031c-67f782a9c0e3"/>
+      <TestMethod codeBase="TaskDetailComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="TaskDetailComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task after component is created" id="d9f5784d-0159-786d-aac1-d47607f97faf">
+      <Execution id="5499bfcf-7107-b2fa-75ce-be0a34f8dfb6"/>
+      <TestMethod codeBase="TaskDetailComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task after component is created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task after component is created" className="TaskDetailComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_ensure button click calls the close task modal method" id="76f53054-cef7-a3d2-7e76-8c362999e7e6">
+      <Execution id="ba606e8f-d8b7-040e-cc0f-84a6667e238d"/>
+      <TestMethod codeBase="TaskDetailComponent.showCloseTaskModal.Chrome 59.0.3071 (Windows 7 0.0.0)_ensure button click calls the close task modal method" name="Chrome 59.0.3071 (Windows 7 0.0.0)_ensure button click calls the close task modal method" className="TaskDetailComponent.showCloseTaskModal"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should open close task modal on click" id="8208c86c-449b-ff42-56d4-4c7a3d55afaa">
+      <Execution id="f6b72649-d374-3949-f0ae-f32df7783445"/>
+      <TestMethod codeBase="TaskDetailComponent.showCloseTaskModal.Chrome 59.0.3071 (Windows 7 0.0.0)_should open close task modal on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should open close task modal on click" className="TaskDetailComponent.showCloseTaskModal"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task with id of 1" id="dba3af41-43fe-f226-f964-8591260750fe">
+      <Execution id="be9c4b88-3663-6b9a-7ab2-58c2c39861fe"/>
+      <TestMethod codeBase="TaskDetailComponent.getTaskDetail.Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task with id of 1" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task with id of 1" className="TaskDetailComponent.getTaskDetail"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected tasks on click" id="0da9cbeb-c161-be5c-957a-c8c4314c4801">
+      <Execution id="215a57c6-ae6b-ea63-d9cc-7d8ca58d953b"/>
+      <TestMethod codeBase="TaskDetailComponent.backToTasksButton.Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected tasks on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected tasks on click" className="TaskDetailComponent.backToTasksButton"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="ce6aaf1d-a210-9282-b1b0-6fe6fc1ab59c">
+      <Execution id="cff9a91e-b35b-7b51-f185-e1e26d44199e"/>
+      <TestMethod codeBase="TaskComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="TaskComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task on load of component" id="46562847-f2be-55e5-850f-ca6d78bdf8ef">
+      <Execution id="e0d2cfe5-172f-eec7-2583-60cba93944da"/>
+      <TestMethod codeBase="TaskComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task on load of component" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task on load of component" className="TaskComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should not be acknowledged when loaded" id="d199124e-6ef9-a3fe-017a-33c2420cdeed">
+      <Execution id="c9cdd5f6-9989-73e1-24ae-a181fb81db2a"/>
+      <TestMethod codeBase="TaskComponent.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should not be acknowledged when loaded" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should not be acknowledged when loaded" className="TaskComponent.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the getTaskDetail method on click" id="80a83c48-8c85-608f-1fdf-e624b5105edc">
+      <Execution id="d794c851-87da-273e-094b-1936bc9fe354"/>
+      <TestMethod codeBase="TaskComponent.getTaskDetail.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the getTaskDetail method on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the getTaskDetail method on click" className="TaskComponent.getTaskDetail"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the acknowledgeTask method on click" id="99f48780-d3eb-4ed6-bf8d-eef245fe522e">
+      <Execution id="da935a48-39bc-83c6-ff49-a5d0d70c9367"/>
+      <TestMethod codeBase="TaskComponent.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should call the acknowledgeTask method on click" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the acknowledgeTask method on click" className="TaskComponent.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be acknowledged once acknowledgeTask is called" id="aa418bdf-bbde-2dfe-9502-ad85e43c296f">
+      <Execution id="6b2a85ba-c8fe-7962-edc3-6e739bfc53fc"/>
+      <TestMethod codeBase="TaskComponent.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should be acknowledged once acknowledgeTask is called" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be acknowledged once acknowledgeTask is called" className="TaskComponent.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should not navigate to selected task detail on click since not acknowledged" id="0339294d-3356-92dc-74f4-3675409cc6fd">
+      <Execution id="5c068cba-cb78-f502-2b8b-d3978eb5488c"/>
+      <TestMethod codeBase="TaskComponent.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should not navigate to selected task detail on click since not acknowledged" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should not navigate to selected task detail on click since not acknowledged" className="TaskComponent.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected task detail on click since acknowledged" id="5393f47b-d957-fd43-fca0-13ffe612b295">
+      <Execution id="2d9a9bae-1ed2-13ab-da48-4297dcd882d3"/>
+      <TestMethod codeBase="TaskComponent.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected task detail on click since acknowledged" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected task detail on click since acknowledged" className="TaskComponent.acknowledgeTask"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" id="34f139ec-ad4b-239a-1c8e-d66cf2d1ea64">
+      <Execution id="ec6b1399-0993-8186-c4fa-44e0eb61f0c4"/>
+      <TestMethod codeBase="TaskService.initial load expectation.Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" className="TaskService.initial load expectation"/>
+    </UnitTest>
+    <UnitTest name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" id="8eaf770d-84a3-4d94-6993-f705438b0a35">
+      <Execution id="98680731-ad3f-d7e5-e139-02dc9fbe3689"/>
+      <TestMethod codeBase="TaskService.acknowledgeTask.Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" name="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" className="TaskService.acknowledgeTask"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5ac3d7f8-22ac-e6f5-6e33-e3ffe18954f3" executionId="baf37419-dcaf-f910-cc85-03d173d27744" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a6751241-558a-5507-368c-0d0e6943950b" executionId="f20e9b01-8891-f38d-b45d-1aa4feba29e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a34f97bc-7a39-d1cc-1ff5-adbe476c6139" executionId="2d354683-2b29-2838-0298-b8f7091d4ba3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0f1c5955-ba21-ba7b-899c-25a7b4e78d26" executionId="39af6b9a-f346-df14-933b-2cbf0c4b5845" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="343ed0c0-93bd-0015-4307-6ae5b0a6422e" executionId="2aa30539-d465-4dc1-e659-fe916a4472e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="518ae1e3-1ffa-468b-a8a4-8f09e65cf1b7" executionId="21ba9d9b-100e-a100-3943-3834fbfdb24a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="7341e180-8deb-c517-2d0a-18ac34b1017e" executionId="659c3bb4-e917-6fe9-dff4-bd7044343791" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="33a898ad-ae26-4410-7172-b2ffc22e77d5" executionId="5780060a-89d3-7c42-ad32-4aa7903c6b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="3d9b24d9-61c4-e37d-c234-0781db16e4a7" executionId="34743820-83bd-2e12-83fa-4971f2bda8dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="de433625-b202-3dc2-b1de-b9214fe452d1" executionId="33edd353-8fe4-4475-34aa-491e508a01ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2a72afd7-c83a-7980-53b2-a63ca2ecc228" executionId="cc515fad-bb78-6926-07fb-9f5ffa1c652e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a0e4031c-a36e-e084-8f9e-032464cc27da" executionId="5c22c07b-a1c0-be23-0edb-9bba23b3dfc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b4f254bf-055c-201f-3679-80c4fb423a19" executionId="510d156b-6655-4e4a-0853-8a513923e8b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a9119a65-fa8d-570d-e0c6-4a0c927c7329" executionId="3602f9e4-44a8-ab0e-5672-6358a5e5f13c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="50893ca8-e735-98fc-d41f-221223d7e53b" executionId="e8683ff3-a18e-c38d-d2b7-140500d8533e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2eb75515-7aeb-272a-0e4d-714f20a8048c" executionId="e8222db1-4fa0-ad3e-94b1-6f2b1b794c19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0d7d4054-e0e7-5031-1310-40b6801007cc" executionId="6b4916a3-a6ec-ecb3-cd69-0c940b79983a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="23f0d6b2-1637-182a-73d9-be423e93216d" executionId="a315845e-cb77-0194-aa84-ecacd759f64a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8a8f4247-ae17-d701-82b6-c14798b27780" executionId="30b02746-59be-11e6-97f3-15f98251c13e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="41e6c77c-3750-9406-53d9-f4f72cb9d535" executionId="7a960cee-8dff-184c-6e0e-5331309a262a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="7e1543d5-d797-c13e-eeee-acf5a5fbb1b1" executionId="ecde856c-70dc-dae1-6767-2d634774de0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="88134abd-65e5-ce44-4236-e0e65e259243" executionId="5de4fdc3-646c-72a0-0584-930d4bd8108f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f7c166fc-6c7b-2725-4f3a-a1881b5a5dfb" executionId="f6d8c440-7d30-5c23-4f68-09a11b4b3cf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="cbb186c0-dd4c-d4ea-3d8a-4e49b181c041" executionId="26178b00-d190-b995-9aef-c4f40a99251e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5f21488e-e845-17c6-94ea-ca4bc07133ac" executionId="2352958e-de6d-773f-96ed-d13393b510bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="62249eb2-737a-88cc-a564-74619e791e00" executionId="34481205-d914-ee5b-8fa1-87d3e3d360b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d58aa0b4-d1f3-1f73-27e9-39ed65f52eb7" executionId="8f8d7704-d5aa-0f41-5a82-f707fa24827c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="81df36f0-1ab1-9d82-07f3-1ee6f756e8ea" executionId="ebfe4f8d-060f-2505-d0b1-480c28cb7294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="95d973a7-bf0e-078f-6729-56efc7b96aea" executionId="78fe14d6-8b57-567b-311f-9473ede5fc6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="42333004-2df5-7627-c84d-e06eea451c07" executionId="53734b1e-c278-5217-eb5f-6ddf053479cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="fe98532d-01b8-195a-1b2c-f573f6b924cf" executionId="a4740066-155e-b0f9-a2a1-83cd0dfae66c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="cfeacf7c-dfe4-e0e7-8e25-06bc7dad1ef4" executionId="c1183721-32a2-017f-8f39-2540221fb5ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="62a98491-66dd-dac3-d42c-3925dfc0ce99" executionId="52aac42c-c3f5-d7d9-18f5-99d405bb8621" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b3cf3a1e-191a-dc7d-cb1c-29323411c8c9" executionId="f295010c-e318-7e58-5453-528dd7e8201d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c38b3d5e-54c4-0ee4-8707-f493707bede1" executionId="99e4eadc-99ce-059d-e18b-8e4df5ddef25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="93b830e3-96e6-c3c9-9104-4d2f55a4167a" executionId="4322090c-64a5-7979-52b0-48c621fde798" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="3f1805db-ad43-afb7-1cd7-4bd51bb8e587" executionId="bfe9319d-7ea0-fb14-bd7d-16b9fd3ffc51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b6cc5b53-38a2-858a-d754-f88a24bb7e8a" executionId="b924ee36-4671-cf2d-1af7-086d00b940da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="face4187-b7de-899c-1243-85a23c7faf4e" executionId="fbc4303e-354c-8b8a-d1f4-b7436bc64562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f145fcab-c2ce-48d8-c224-55cf4a655fbe" executionId="eb30f13d-80b2-180a-34ce-90869a45f74f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4b05370f-f9f8-515b-1de6-7425c272c9e6" executionId="135c3d0a-1d02-5615-ef60-daafedb5b50d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="59172f44-00ea-b858-8294-58c88f4c737d" executionId="c049579d-4a77-be72-b7bc-121160970ee6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="1f30058d-27db-7115-137e-f614389c3845" executionId="91bf61de-3c3a-1184-0446-97c4bb1eea01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a5c53298-2d9c-968d-4c3b-b89451919c58" executionId="fd85a2c1-34fb-59cc-218a-41dcc1740ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="cd566310-fb20-bd4d-1449-2fc03af20398" executionId="297cb907-d646-1d31-031c-67f782a9c0e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d9f5784d-0159-786d-aac1-d47607f97faf" executionId="5499bfcf-7107-b2fa-75ce-be0a34f8dfb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="76f53054-cef7-a3d2-7e76-8c362999e7e6" executionId="ba606e8f-d8b7-040e-cc0f-84a6667e238d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8208c86c-449b-ff42-56d4-4c7a3d55afaa" executionId="f6b72649-d374-3949-f0ae-f32df7783445" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="dba3af41-43fe-f226-f964-8591260750fe" executionId="be9c4b88-3663-6b9a-7ab2-58c2c39861fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0da9cbeb-c161-be5c-957a-c8c4314c4801" executionId="215a57c6-ae6b-ea63-d9cc-7d8ca58d953b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ce6aaf1d-a210-9282-b1b0-6fe6fc1ab59c" executionId="cff9a91e-b35b-7b51-f185-e1e26d44199e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="46562847-f2be-55e5-850f-ca6d78bdf8ef" executionId="e0d2cfe5-172f-eec7-2583-60cba93944da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d199124e-6ef9-a3fe-017a-33c2420cdeed" executionId="c9cdd5f6-9989-73e1-24ae-a181fb81db2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="80a83c48-8c85-608f-1fdf-e624b5105edc" executionId="d794c851-87da-273e-094b-1936bc9fe354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="99f48780-d3eb-4ed6-bf8d-eef245fe522e" executionId="da935a48-39bc-83c6-ff49-a5d0d70c9367" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="aa418bdf-bbde-2dfe-9502-ad85e43c296f" executionId="6b2a85ba-c8fe-7962-edc3-6e739bfc53fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0339294d-3356-92dc-74f4-3675409cc6fd" executionId="5c068cba-cb78-f502-2b8b-d3978eb5488c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5393f47b-d957-fd43-fca0-13ffe612b295" executionId="2d9a9bae-1ed2-13ab-da48-4297dcd882d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="34f139ec-ad4b-239a-1c8e-d66cf2d1ea64" executionId="ec6b1399-0993-8186-c4fa-44e0eb61f0c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8eaf770d-84a3-4d94-6993-f705438b0a35" executionId="98680731-ad3f-d7e5-e139-02dc9fbe3689" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="baf37419-dcaf-f910-cc85-03d173d27744" testId="5ac3d7f8-22ac-e6f5-6e33-e3ffe18954f3" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should create the app" computerName="QJ07304218" duration="00:00:00.189" startTime="2017-08-02T20:51:33" endTime="2017-08-02T20:51:33" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f20e9b01-8891-f38d-b45d-1aa4feba29e1" testId="a6751241-558a-5507-368c-0d0e6943950b" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have as title &apos;Tasks&apos;" computerName="QJ07304218" duration="00:00:00.047" startTime="2017-08-02T20:51:33" endTime="2017-08-02T20:51:33" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="2d354683-2b29-2838-0298-b8f7091d4ba3" testId="a34f97bc-7a39-d1cc-1ff5-adbe476c6139" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.013" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="39af6b9a-f346-df14-933b-2cbf0c4b5845" testId="0f1c5955-ba21-ba7b-899c-25a7b4e78d26" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" computerName="QJ07304218" duration="00:00:00.009" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="2aa30539-d465-4dc1-e659-fe916a4472e3" testId="343ed0c0-93bd-0015-4307-6ae5b0a6422e" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to get data" computerName="QJ07304218" duration="00:00:00.010" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="21ba9d9b-100e-a100-3943-3834fbfdb24a" testId="518ae1e3-1ffa-468b-a8a4-8f09e65cf1b7" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" computerName="QJ07304218" duration="00:00:00.012" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="659c3bb4-e917-6fe9-dff4-bd7044343791" testId="7341e180-8deb-c517-2d0a-18ac34b1017e" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect a return of the same task id that was sent into service call" computerName="QJ07304218" duration="00:00:00.010" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5780060a-89d3-7c42-ad32-4aa7903c6b07" testId="33a898ad-ae26-4410-7172-b2ffc22e77d5" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.021" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="34743820-83bd-2e12-83fa-4971f2bda8dc" testId="3d9b24d9-61c4-e37d-c234-0781db16e4a7" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should create an instance" computerName="QJ07304218" duration="00:00:00.011" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="33edd353-8fe4-4475-34aa-491e508a01ef" testId="de433625-b202-3dc2-b1de-b9214fe452d1" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is an invalid string" computerName="QJ07304218" duration="00:00:00.009" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="cc515fad-bb78-6926-07fb-9f5ffa1c652e" testId="2a72afd7-c83a-7980-53b2-a63ca2ecc228" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date is null" computerName="QJ07304218" duration="00:00:00.014" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5c22c07b-a1c0-be23-0edb-9bba23b3dfc5" testId="a0e4031c-a36e-e084-8f9e-032464cc27da" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date a different object" computerName="QJ07304218" duration="00:00:00.011" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="510d156b-6655-4e4a-0853-8a513923e8b8" testId="b4f254bf-055c-201f-3679-80c4fb423a19" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to TBD if date has not been defined" computerName="QJ07304218" duration="00:00:00.010" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="3602f9e4-44a8-ab0e-5672-6358a5e5f13c" testId="a9119a65-fa8d-570d-e0c6-4a0c927c7329" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with string input" computerName="QJ07304218" duration="00:00:00.016" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="e8683ff3-a18e-c38d-d2b7-140500d8533e" testId="50893ca8-e735-98fc-d41f-221223d7e53b" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should transform to the time in 12 hour format when a valid afternoon datetime with date input" computerName="QJ07304218" duration="00:00:00.009" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="e8222db1-4fa0-ad3e-94b1-6f2b1b794c19" testId="2eb75515-7aeb-272a-0e4d-714f20a8048c" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.013" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6b4916a3-a6ec-ecb3-cd69-0c940b79983a" testId="0d7d4054-e0e7-5031-1310-40b6801007cc" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return the LAB Service URI" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a315845e-cb77-0194-aa84-ecacd759f64a" testId="23f0d6b2-1637-182a-73d9-be423e93216d" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return a flight model type" computerName="QJ07304218" duration="00:00:00.002" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="30b02746-59be-11e6-97f3-15f98251c13e" testId="8a8f4247-ae17-d701-82b6-c14798b27780" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return an employee model type" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="7a960cee-8dff-184c-6e0e-5331309a262a" testId="41e6c77c-3750-9406-53d9-f4f72cb9d535" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return 1 when not an android device" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ecde856c-70dc-dae1-6767-2d634774de0b" testId="7e1543d5-d797-c13e-eeee-acf5a5fbb1b1" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should return null when not an android device" computerName="QJ07304218" duration="00:00:00.001" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5de4fdc3-646c-72a0-0584-930d4bd8108f" testId="88134abd-65e5-ce44-4236-e0e65e259243" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.003" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f6d8c440-7d30-5c23-4f68-09a11b4b3cf4" testId="f7c166fc-6c7b-2725-4f3a-a1881b5a5dfb" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task method using the closeTaskRequest parameter" computerName="QJ07304218" duration="00:00:00.001" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="26178b00-d190-b995-9aef-c4f40a99251e" testId="cbb186c0-dd4c-d4ea-3d8a-4e49b181c041" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.036" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="2352958e-de6d-773f-96ed-d13393b510bf" testId="5f21488e-e845-17c6-94ea-ca4bc07133ac" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight input on load of component" computerName="QJ07304218" duration="00:00:00.047" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="34481205-d914-ee5b-8fa1-87d3e3d360b5" testId="62249eb2-737a-88cc-a564-74619e791e00" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call set arrived method on button click" computerName="QJ07304218" duration="00:00:00.038" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8f8d7704-d5aa-0f41-5a82-f707fa24827c" testId="d58aa0b4-d1f3-1f73-27e9-39ed65f52eb7" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call show close all tasks modal method on button click" computerName="QJ07304218" duration="00:00:00.039" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ebfe4f8d-060f-2505-d0b1-480c28cb7294" testId="81df36f0-1ab1-9d82-07f3-1ee6f756e8ea" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.008" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="78fe14d6-8b57-567b-311f-9473ede5fc6b" testId="95d973a7-bf0e-078f-6729-56efc7b96aea" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be empty on initial load" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="53734b1e-c278-5217-eb5f-6ddf053479cd" testId="42333004-2df5-7627-c84d-e06eea451c07" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should set the internal currentDoneAcData variable to passed in param" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a4740066-155e-b0f9-a2a1-83cd0dfae66c" testId="fe98532d-01b8-195a-1b2c-f573f6b924cf" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should get the internal currentDoneAcData and return" computerName="QJ07304218" duration="00:00:00.000" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="c1183721-32a2-017f-8f39-2540221fb5ac" testId="cfeacf7c-dfe4-e0e7-8e25-06bc7dad1ef4" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.032" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="52aac42c-c3f5-d7d9-18f5-99d405bb8621" testId="62a98491-66dd-dac3-d42c-3925dfc0ce99" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close all tasks method on button click" computerName="QJ07304218" duration="00:00:00.033" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f295010c-e318-7e58-5453-528dd7e8201d" testId="b3cf3a1e-191a-dc7d-cb1c-29323411c8c9" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close method on button click" computerName="QJ07304218" duration="00:00:00.035" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="99e4eadc-99ce-059d-e18b-8e4df5ddef25" testId="c38b3d5e-54c4-0ee4-8707-f493707bede1" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.023" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="4322090c-64a5-7979-52b0-48c621fde798" testId="93b830e3-96e6-c3c9-9104-4d2f55a4167a" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created with a valid flight object" computerName="QJ07304218" duration="00:00:00.030" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="bfe9319d-7ea0-fb14-bd7d-16b9fd3ffc51" testId="3f1805db-ad43-afb7-1cd7-4bd51bb8e587" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with AcInfo input on click" computerName="QJ07304218" duration="00:00:00.028" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="b924ee36-4671-cf2d-1af7-086d00b940da" testId="b6cc5b53-38a2-858a-d754-f88a24bb7e8a" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the send app method with Safe input on button click" computerName="QJ07304218" duration="00:00:00.032" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fbc4303e-354c-8b8a-d1f4-b7436bc64562" testId="face4187-b7de-899c-1243-85a23c7faf4e" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.092" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="eb30f13d-80b2-180a-34ce-90869a45f74f" testId="f145fcab-c2ce-48d8-c224-55cf4a655fbe" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have flight model on load of component" computerName="QJ07304218" duration="00:00:00.072" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="135c3d0a-1d02-5615-ef60-daafedb5b50d" testId="4b05370f-f9f8-515b-1de6-7425c272c9e6" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the show external apps dialog method on click" computerName="QJ07304218" duration="00:00:00.076" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="c049579d-4a77-be72-b7bc-121160970ee6" testId="59172f44-00ea-b858-8294-58c88f4c737d" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.047" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="91bf61de-3c3a-1184-0446-97c4bb1eea01" testId="1f30058d-27db-7115-137e-f614389c3845" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the close task modal method on click" computerName="QJ07304218" duration="00:00:00.036" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="fd85a2c1-34fb-59cc-218a-41dcc1740ac0" testId="a5c53298-2d9c-968d-4c3b-b89451919c58" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the dismiss task modal method on click" computerName="QJ07304218" duration="00:00:00.035" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="297cb907-d646-1d31-031c-67f782a9c0e3" testId="cd566310-fb20-bd4d-1449-2fc03af20398" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.080" startTime="2017-08-02T20:51:34" endTime="2017-08-02T20:51:34" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5499bfcf-7107-b2fa-75ce-be0a34f8dfb6" testId="d9f5784d-0159-786d-aac1-d47607f97faf" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task after component is created" computerName="QJ07304218" duration="00:00:00.074" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ba606e8f-d8b7-040e-cc0f-84a6667e238d" testId="76f53054-cef7-a3d2-7e76-8c362999e7e6" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_ensure button click calls the close task modal method" computerName="QJ07304218" duration="00:00:00.063" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="f6b72649-d374-3949-f0ae-f32df7783445" testId="8208c86c-449b-ff42-56d4-4c7a3d55afaa" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should open close task modal on click" computerName="QJ07304218" duration="00:00:00.071" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="be9c4b88-3663-6b9a-7ab2-58c2c39861fe" testId="dba3af41-43fe-f226-f964-8591260750fe" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task with id of 1" computerName="QJ07304218" duration="00:00:00.061" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="215a57c6-ae6b-ea63-d9cc-7d8ca58d953b" testId="0da9cbeb-c161-be5c-957a-c8c4314c4801" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected tasks on click" computerName="QJ07304218" duration="00:00:00.074" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="cff9a91e-b35b-7b51-f185-e1e26d44199e" testId="ce6aaf1d-a210-9282-b1b0-6fe6fc1ab59c" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.061" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="e0d2cfe5-172f-eec7-2583-60cba93944da" testId="46562847-f2be-55e5-850f-ca6d78bdf8ef" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should have one task on load of component" computerName="QJ07304218" duration="00:00:00.059" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="c9cdd5f6-9989-73e1-24ae-a181fb81db2a" testId="d199124e-6ef9-a3fe-017a-33c2420cdeed" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should not be acknowledged when loaded" computerName="QJ07304218" duration="00:00:00.051" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d794c851-87da-273e-094b-1936bc9fe354" testId="80a83c48-8c85-608f-1fdf-e624b5105edc" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the getTaskDetail method on click" computerName="QJ07304218" duration="00:00:00.056" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="da935a48-39bc-83c6-ff49-a5d0d70c9367" testId="99f48780-d3eb-4ed6-bf8d-eef245fe522e" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should call the acknowledgeTask method on click" computerName="QJ07304218" duration="00:00:00.038" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6b2a85ba-c8fe-7962-edc3-6e739bfc53fc" testId="aa418bdf-bbde-2dfe-9502-ad85e43c296f" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be acknowledged once acknowledgeTask is called" computerName="QJ07304218" duration="00:00:00.065" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5c068cba-cb78-f502-2b8b-d3978eb5488c" testId="0339294d-3356-92dc-74f4-3675409cc6fd" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should not navigate to selected task detail on click since not acknowledged" computerName="QJ07304218" duration="00:00:00.040" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="2d9a9bae-1ed2-13ab-da48-4297dcd882d3" testId="5393f47b-d957-fd43-fca0-13ffe612b295" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should navigate to selected task detail on click since acknowledged" computerName="QJ07304218" duration="00:00:00.058" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="ec6b1399-0993-8186-c4fa-44e0eb61f0c4" testId="34f139ec-ad4b-239a-1c8e-d66cf2d1ea64" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should be created" computerName="QJ07304218" duration="00:00:00.011" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="98680731-ad3f-d7e5-e139-02dc9fbe3689" testId="8eaf770d-84a3-4d94-6993-f705438b0a35" testName="Chrome 59.0.3071 (Windows 7 0.0.0)_should expect android service call to be made when call to acknowledge task" computerName="QJ07304218" duration="00:00:00.008" startTime="2017-08-02T20:51:35" endTime="2017-08-02T20:51:35" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>

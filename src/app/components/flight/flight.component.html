@@ -1,0 +1,87 @@
+<div class="MMX_Task" style="padding: 35px 0px 1px 0px;">
+    <div style="height: 100%;">
+        <div id="myTasks" class="container-fluid my-task-container">
+            <div *ngFor="let flight of flightModel.Flights">
+                <div class="row inner-task-container">
+                    <div class="col-sm-12 col-md-1 col-lg-1 col-xs-12 no-pad-right no-pad-left text-center nose-container">
+                        <a id="aShowExternalAppsDialog" (click)="showExternalAppsDialog()" class="nose-number">{{flight.Aircraft}}</a>
+                        <span [ngClass]="flight.Airline == 'AA' ?  'nose-icon-aa' :  'nose-icon-aa'"></span>
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-8 col-xs-12 pad-fix width-fix">
+                        <div class="route-container">
+                            <div class="origin-station">{{flight.StationFrom || "TBD"}}</div>
+                            <div class="origin-info">
+                                <div class="origin-info-container">
+                                    <table>
+                                        <tr>
+                                            <td class="flight-info-top border-fix">ARR FLIGHT
+                                                <div class="inner border-fix-2"></div>
+                                            </td>
+                                            <td class="flight-info-top border-fix">GATE
+                                                <div class="inner border-fix-2"></div>
+                                            </td>
+                                            <td class="flight-info-top">ACT</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="flight-info-bottom round-left border-fix">{{flight.ArrivalFlight || "TBD"}}
+                                                <div class="inner border-fix-2 fit"></div>
+                                            </td>
+                                            <td class="flight-info-bottom border-fix">{{flight.ArrivalGate || "TBD"}}
+                                                <div class="inner border-fix-2 fit"></div>
+                                            </td>
+                                            <td class="flight-info-bottom round-right">{{flight.ActualArrival | time}}</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="indicator" [ngClass]="flight.Status"></div>
+                            <div class="destination-info">
+                                <div class="destination-info-container">
+                                    <table>
+                                        <tr>
+                                            <td class="flight-info-top border-fix">DPT FLIGHT
+                                                <div class="inner border-fix-2"></div>
+                                            </td>
+                                            <td class="flight-info-top border-fix">GATE
+                                                <div class="inner border-fix-2"></div>
+                                            </td>
+                                            <td class="flight-info-top border-fix">ACT
+                                                <div class="inner border-fix-2"></div>
+                                            </td>
+                                            <td class="flight-info-top">SKD</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="flight-info-bottom round-left border-fix">{{flight.DepartureFlight || "TBD"}}
+                                                <div class="inner border-fix-2 fit"></div>
+                                            </td>
+                                            <td class="flight-info-bottom border-fix">{{flight.DepartureGate || "TBD"}}
+                                                <div class="inner border-fix-2 fit"></div>
+                                            </td>
+                                            <td class="flight-info-bottom border-fix">{{flight.ScheduledDeparture | time}}
+                                                <div class="inner border-fix-2 fit"></div>
+                                            </td>
+                                            <td class="flight-info-bottom round-right">{{flight.ScheduledDeparture | time}}</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="destination-station">{{flight.StationTo || "TBD"}}</div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <aa-button-bar [flight]="flight"></aa-button-bar>
+
+                    <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 task-container">
+                        <div class="col-sm-10 col-md-11 col-lg-11 row item-container">
+                            <a *ngFor="let task of flight.Tasks">
+                                <aa-task [task]="task"></aa-task>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

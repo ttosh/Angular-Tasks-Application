@@ -1,0 +1,68 @@
+<div class="container-fluid" style="height: 100%;">
+  <div class="detail-header media-width">
+    <div>
+      <h3 class="pull-left">
+        <font color="white">&nbsp;&nbsp;AIRCRAFT : {{ currentAircraft }}</font>
+      </h3>
+      <div class="button-detail-container pull-right">
+        <button id="btnBackToTasks" type="submit" class="btn btn-primary" (click)="goToTasks()">
+            <span class="text" aria-hidden="true" (click)="goToTasks()">Back</span>
+            &nbsp;<i class="fa fa-arrow-left"></i>
+        </button>
+        &nbsp;&nbsp;
+      </div>
+    </div>
+  </div>
+
+  <div class="task-detail-container">
+    <div class="task-container">
+      <div style="height: 50px; padding: 10px 5px 5px 0;">
+        
+        <div class="pull-left">
+          <div class="task-detail-div-header pull-left">TASK#:</div>
+          <div class="task-detail-div-content pull-right">&nbsp;{{ currentTask.TaskID }}</div>
+        </div>
+
+        <div class="pull-right">
+          <div class="task-detail-div-header pull-left">Assigned On:</div>
+          <div class="task-detail-div-content pull-right">&nbsp;{{ currentTask.AssignedOn | date:'MM/dd/y HH:mm:ss' }}</div>
+
+        </div>
+
+      </div>
+      
+      <div class="pull-left">
+        <div class="task-detail-div-header pull-left">Discrepancy:</div>
+        <div class="task-detail-div-content pull-left">&nbsp;&nbsp;{{ currentTask.DiscrepancyShort }}</div>
+          
+      </div>
+      <div class="pull-left">
+        <div class="task-detail-div-header pull-left">Instructions:</div>
+        <div class="task-detail-div-content">&nbsp;&nbsp;{{ currentTask.Instructions }}</div>
+      </div>
+
+    </div>
+  </div>
+
+   <div class="detail-footer media-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pull-right" style="margin-top: 4px;">
+                    <button id="btnCloseTask" type="submit" class="btn btn-danger" (click)="showCloseTaskModal(currentTask)">
+                        <span class="text">Close Task</span>
+                        &nbsp;<i class="fa fa-check-circle"></i>
+                    </button>
+                </div>
+                <h4><font color="white"><strong>ASSIGNMENT:</strong></font></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h4><font color="white">{{currentTask.AssignedBy}} has assigned a task to {{currentTask.AssignedTo}}</font></h4>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="pull-right"><font color="white">{{currentTask.AssignedOn | date:'MM/dd/y HH:mm:ss' }}</font></h4>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,230 @@
+.MMX_Task {
+	height: 100%;
+}
+.MMX_Task .container {
+	background-color: #36495a; 
+	border-top: 1px solid #9da6ab; 
+	border-bottom: 1px solid #9da6ab; 
+	position: relative !important; 
+	top: 40px;
+}
+.MMX_Task h1 { 
+	margin-top: 15px; 
+	margin-bottom: 10px; 
+	font-weight: bold;
+}
+.my-task-container {
+	border-bottom: 1px solid #9da6ab;
+}
+.my-task-container div {
+	background-color: #36495a;
+}
+.inner-task-container:last-child {
+	padding-top: 5px; 
+	border-bottom: 5px solid #262628;
+}
+.plane {
+    float: left; 
+    margin-top: 10px
+}
+.indicator {
+    float: left;
+    margin-top: 10px;
+    height: 45px;
+    width: 47px;
+    background-image: url('/assets/images/on-ground-indicator.png');
+}
+.in-air {
+    background-color: #5bc0de !important;
+}
+.on-ground {
+    background-color: #5cb85c !important;
+}
+.delayed {
+    background-color: #f0ad4e !important;
+}
+.nose-container {
+    padding-top: 14px;
+}
+.nose-number {
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+span.nose-icon-aa {
+    background-image: url('/assets/images/aa-nose-icon.png');
+    height: 18px;
+    width: 21px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 0px;
+}
+.no-pad-right {
+	padding-right: 0px;
+}
+.no-pad-left {
+	padding-left: 0px;
+}
+.text-center {
+	text-align: center;
+}
+.origin-station {
+	background-color: #262628 !important; 
+	border-bottom-left-radius: 5px; 
+	border-top-left-radius: 5px; 
+	border-top: 1px solid #ffffff; 
+	border-bottom: 1px solid #ffffff; 
+	border-left: 1px solid #ffffff; 
+	float: left; 
+	padding: 3px 12px 0px 12px; 
+	font-weight: bold; 
+	line-height: 1.2; 
+	margin-top: 19px; 
+	font-size: 1.2em;
+	max-width: 63px;
+}
+.destination-station {
+	background-color: #262628 !important; 
+	border-bottom-right-radius: 5px; 
+	border-top-right-radius: 5px; 
+	border-top: 1px solid #ffffff; 
+	border-bottom: 1px solid #ffffff; 
+	border-right: 1px solid #ffffff; 
+	float: left; 
+	padding: 3px 12px 0px 12px; 
+	font-weight: bold; 
+	line-height: 1.2; 
+	margin-top: 19px; 
+	font-size: 1.2em;
+	max-width: 63px;
+}
+.origin-info, .destination-info {
+	float: left; 
+	border-radius: 5px; 
+	border: 1px solid #ffffff; 
+	margin-top: 7px;
+}
+
+.origin-info-container, .destination-info-container {
+	background-color: #2c76bc !important; 
+	border-radius: 5px; 
+	font-size: .7em;
+}
+td.flight-info-top {
+	padding : 3px 10px 0px 10px;
+	text-align: center;
+}
+td.flight-info-top .inner {
+    background-color: #9da6ab !important; 
+    left: 100%; 
+    width: 1px; 
+    bottom: 0px; 
+    top: 5px;
+}
+td.flight-info-bottom {
+    font-size: 1.7em;
+    font-weight: bold; 
+    background-color: #262628 !important;
+    text-align: center;
+}
+.round-left {
+    border-bottom-left-radius: 5px;
+}
+.round-right {
+    border-bottom-right-radius: 5px;
+}
+td.flight-info-bottom .inner {
+    background-color: #9da6ab !important; 
+    left: 100%; 
+    width: 1px;
+}
+td.flight-info-bottom .fit {
+    bottom: 5px; 
+    top: 0px; 
+    z-index: 1;
+}
+.border-fix {
+	position: relative;
+}
+.border-fix-2 {
+    position: absolute;
+}
+
+.task-container {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+
+.item-container {
+    background-color: #262628 !important; 
+    border-radius: 5px; 
+    border: 1px solid #ffffff; 
+    padding-left: 0px; 
+    padding-right: 0px; 
+    cursor: pointer; 
+    padding-top: 8px; 
+    padding-bottom: 5px;
+}
+
+a.repeat {display: block; }
+a.repeat:not(:first-child) {
+	border-top: 1px solid #3c3c3c;
+}
+
+/*  OVERRIDES  */
+.pad-fix {
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+.route-container { 
+    display: block; 
+    position: relative;
+}
+
+
+@media (max-device-width: 768px) and (max-aspect-ratio: 4/3) {
+    .route-container { width: auto; height: auto; margin: 0px auto; text-align: center; position: relative; display: block; }
+    .item-container { margin-right: 10px; margin-left: 10px; }
+    .pad-fix { padding-left: 15px; padding-right: 15px; }
+    
+    .task-container { padding-left: 0px;}
+
+    .flight-info-bottom {
+    	padding : 3px 13px 0px 14px !important;
+    }
+    
+    .nose-container {
+        padding-top: 25px;
+    }
+    .nose-number {
+        color: white;
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    span.nose-icon-aa {
+        background-image: url('/assets/images/aa-nose-icon-lg.png');
+        height: 25px;
+        width: 29px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+
+    .modal-sm {
+        min-width: 600px;
+        max-width: 600px;
+    }
+}
+
+@media (max-device-width: 1024px) and (min-aspect-ratio: 4/3) {
+	.flight-info-bottom {
+		padding : 3px 15px 0px 15px !important;
+	}
+}
+
+:host-context(.modal-content) div {
+  min-width: 850px !important;
+  max-width: 850px !important;
+}

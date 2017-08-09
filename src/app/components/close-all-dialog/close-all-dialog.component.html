@@ -1,0 +1,23 @@
+<div class="modal-header" style="background-color: #1a8cff">
+    <div class="row" style="padding-left: 15px;">
+        <h4>CLOSE ALL TASKS</h4>
+    </div>
+</div>
+<!--*ngIf="task.Acknowledged == true"-->
+<div class="modal-body well well-sm"  *ngFor="let task of currentFlight.Tasks" style="max-height:calc(100vh - 200px);overflow-y: auto; background-color: #292b2c; color: white; padding-left: 15px;">
+    <div class="row" style="padding-left: 15px;">
+        <span class="glyphicon glyphicon-wrench"></span>
+        <label style="padding-left: 15px;">{{task.TaskID}}</label>
+        <!--<label style="padding-left: 15px;">{{task.Discrepancy | limitTo: 30}}{{task.Discrepancy.length > 20 ? '...' : ''}}</label>-->
+        <label style="padding-left: 15px;">{{task.Discrepancy}}</label>
+    </div>
+    <div class="row" style="padding-left: 15px;">
+        <label class="radio-inline"><input type="radio" name="closeTask" value="CLOSED" (click)="setStatus()" [checked]='true'/><strong>No Action Required</strong></label>
+        <label class="radio-inline"><input type="radio" name="closeTask" value="ACCOMPLISHED" (click)="setStatus()"/><strong>Accomplished</strong></label>
+    </div>
+</div>
+<div class="modal-footer">
+    <button id="btnCloseAllTasks" type="button" class="btn btn-primary" data-dismiss="modal" (click)="closeAllTasks()">OK</button>
+    <button id="btnCancel" type="button" class="btn btn-primary" data-dismiss="modal" (click)="close()">CANCEL</button>
+</div>
+

@@ -1,0 +1,22 @@
+
+div.task_List {
+	padding-top: 5px;
+    background-color: transparent !important;
+}
+.popover-content, .popover {
+    background-color: #ffffff !important;
+}
+.popover {
+    max-width: 330px !important;
+    left: 20% !important;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+	width: 0px; 
+	line-height: 0;
+	padding: 0px;
+	margin: 0px;
+	display: normal;
+}

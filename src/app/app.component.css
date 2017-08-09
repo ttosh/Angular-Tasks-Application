@@ -1,0 +1,17 @@
+.navbar-MMX { 
+	background-color: #262628 !important; 
+	color: #fff !important; 
+	height: 35px !important; 
+	min-height: 35px !important; 
+	border-bottom: 1px solid #9da6ab;
+}
+
+/*  OVERRIDES  */
+.navbar {
+	min-height: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}

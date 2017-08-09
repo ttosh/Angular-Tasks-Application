@@ -1,0 +1,19 @@
+<div class="modal-header" style="background-color: #1a8cff;">
+    <div class="row" style="padding-left: 15px;">
+        <h4>CLOSE Task# {{ currentTask.TaskID }} - Comment</h4>
+    </div>
+</div>
+<div class="modal-body" style="background-color: #292b2c; color: white;">
+    <div class="row" style="padding-left: 15px;">
+        <label class="radio-inline"><input name="radioGroup" type="radio" id="noActionRequired" checked="checked" ng-model="status" value="CLOSED" /><strong>No Action Required</strong></label>
+        <label class="radio-inline"><input name="radioGroup" type="radio" id="accomplished" ng-model="status" value="ACCOMPLISHED" /><strong>Accomplished</strong></label>
+    </div>
+    <div class="row" style="padding-left: 15px; padding-top: 15px;">
+        <textarea id="closeComments" [(ngModel)]="currentTask.CloseComments" placeholder="Please Enter Comments" style="min-height: 100px; min-width: 500px; color: #000000" autofocus></textarea>
+    </div>
+</div>
+
+<div class="modal-footer" style="background-color: #292b2c; color: white;">
+    <button id="btnCloseTask" type="button" class="btn btn-primary" data-dismiss="modal" (click)="closeTask()">OK</button>
+    <button id="btnDismiss" type="button" class="btn btn-primary" data-dismiss="modal" (click)="close()">CANCEL</button>
+</div>
